@@ -4,16 +4,20 @@
 experience, now focused on building production AI tools: agent orchestration,
 MCP tooling, and local-first AI.
 
-I care about the unglamorous parts that make agents actually work — deterministic
-routing over LLM guesswork, human-in-the-loop gates on destructive actions, and
-tool-selection patterns that hold up under real registries.
+I care about the unglamorous parts that make agents actually work — keeping the
+LLM out of the critical path, deterministic engines for anything that has to be
+correct, and human-in-the-loop gates on destructive actions.
 
 ### What I'm building
 
+- **[Grand Adventure Engine](https://github.com/raydeStar/grand-adventure-engine)**
+  — a multiplayer AI-narrated RPG that runs in Discord. The AI handles
+  storytelling; a deterministic C# engine handles all the rules (combat, loot,
+  skill checks) — so the game stays fair and consistent. .NET 10, local LLM
+  inference via LM Studio, Playwright E2E tests, admin dashboard.
 - **Sir Thaddeus** — a local-first, privacy-focused AI desktop assistant
-  (.NET / Avalonia). Voice-first, MCP-permissioned tool access, local LLM inference.
-- **Grand Adventure Engine** — an agentic DND assistant, ready for use in Discord
-- Contributions to the open agentic ecosystem — merged into **Unsloth**.
+  (.NET / Avalonia). Voice-first, MCP-permissioned tool access, local inference.
+- Open-source contributions to the agentic ecosystem — merged into **Unsloth**.
 
 ### Focus areas
 
