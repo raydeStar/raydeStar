@@ -15,7 +15,7 @@ correct, and human-in-the-loop gates on destructive actions.
   storytelling; a deterministic C# engine handles all the rules (combat, loot,
   skill checks) — so the game stays fair and consistent. .NET 10, local LLM
   inference via LM Studio, Playwright E2E tests, admin dashboard.
-- **Sir Thaddeus** — a local-first, privacy-focused AI desktop assistant
+- **[Sir Thaddeus](https://github.com/raydeStar/sir-thaddeus)** — a local-first, privacy-focused AI desktop assistant
   (.NET / Avalonia). Voice-first, MCP-permissioned tool access, local inference.
 - Open-source contributions to the agentic ecosystem — merged into **Unsloth**.
 
