@@ -1,20 +1,21 @@
 # Mark Hall
 
-## AI Engineer | Agentic Systems, MCP, Local LLMs, .NET & Azure
+## Local-first AI, agentic systems, MCP, and .NET
 
 > Local models. Real tools. Honest measurements.
 
-I work in the gap between a convincing AI demo and dependable software.
+By day, I build production software with .NET and Azure. This profile is my
+workshop for local AI, agent tooling, game systems, and experiments in making
+smaller language models genuinely useful.
 
-I build production AI systems around deterministic tool execution, Model
-Context Protocol (MCP) integrations, durable memory, retrieval-augmented
-generation (RAG), explicit permissions, visible evidence, and repeatable
-evaluation. After 10+ years building software with .NET, C#, and Azure, I now
-focus that engineering discipline on local language models, agent orchestration,
-and trustworthy automation.
+Most of my career has been spent building C# systems. Lately, I have been
+exploring the unglamorous machinery that turns an impressive AI demo into
+dependable software: deterministic execution, Model Context Protocol (MCP)
+integrations, explicit permissions, retrieval-augmented generation (RAG),
+durable memory, visible evidence, human approval around destructive actions,
+and repeatable evaluation.
 
-**[Read my writing at markbhall.dev](https://markbhall.dev)** ·
-**[Connect with me on LinkedIn](https://www.linkedin.com/in/mhall0808/)**
+**[Project notes, experiments, and longer-form writing at markbhall.dev](https://markbhall.dev)**
 
 ## What I'm building
 
@@ -41,14 +42,14 @@ storytelling with rules that remain fair, testable, and consistent.
 
 `C#` · `.NET 10` · `ASP.NET Core` · `SignalR` · `Docker` · `Playwright` · `LM Studio` · `Ollama`
 
-## Open-source work
+## Open-source notes
 
 - **[Unsloth Zoo PR #769](https://github.com/unslothai/unsloth-zoo/pull/769):**
   Added reasoning-channel extraction for DiffusionGemma's OpenAI-compatible
   shim, including streaming boundary handling and automated tests. Merged
   upstream into the Unsloth ecosystem.
 
-## How I approach AI engineering
+## Principles behind the projects
 
 - Keep the LLM out of the critical path when correctness matters.
 - Use deterministic systems for rules, state transitions, validation, and
@@ -58,15 +59,18 @@ storytelling with rules that remain fair, testable, and consistent.
 - Measure improvements against frozen baselines and unseen tasks, not
   impressive-looking demos.
 
-## Writing
+## From the blog
 
-At **[markbhall.dev](https://markbhall.dev)**, I publish practical engineering
-notes and experiments on local language models, agentic AI, MCP tooling, LLM
-evaluation, benchmark design, production AI safety, and AI-assisted software
-development.
+At **[markbhall.dev](https://markbhall.dev)**, I publish engineering notes and
+experiments on local language models, agentic AI, MCP tooling, LLM evaluation,
+benchmark design, production AI safety, and AI-assisted software development.
 
-## Technical focus
+## Topics I keep returning to
 
 `Agentic AI` · `Model Context Protocol (MCP)` · `Local LLMs` · `LLM evaluation` ·
 `RAG` · `Tool use` · `Structured outputs` · `Human-in-the-loop AI` · `.NET / C#` ·
 `Azure` · `Docker` · `Playwright`
+
+## Elsewhere
+
+- [LinkedIn](https://www.linkedin.com/in/mhall0808/)
