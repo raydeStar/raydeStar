@@ -75,11 +75,11 @@ for inspecting and reproducing the evaluation process.
   A deterministic C# engine owns combat, dice, quests, and persistent state;
   the language model narrates the results. Includes a WebMCP co-DM workflow
   with human approval for game-state changes.
-- **[HireZero](https://hirezero.app/)** — An early-preview marketing employee
-  for founders, built around research, campaign drafts, revision history, and
-  explicit publishing decisions. The
-  [public source](https://github.com/raydeStar/marketing-hire) combines a .NET
-  host, React cockpit, and an OpenClaw employee.
+- **[HireZero](https://github.com/raydeStar/HireZero)** —
+  A company of AI employees (Developer, Marketing, Support and CEO) where every
+  push, send, publish or spend waits for the owner's approval of the exact
+  version reviewed, and each model call reserves its budget first. Built with
+  C#/.NET and React. [Try the live demo](https://app.hirezero.app), hosted on Vultr.
 
 ## Merged open-source contributions
 
