@@ -1,13 +1,16 @@
-# Mark Hall — AI Engineer & Open-Source Developer
+# Mark Hall, AI engineer: agent reliability and evaluation
 
-I'm **Mark Hall**, known as **raydeStar** on GitHub. I build **local-first AI
-agents, LLM evaluation tools, and AI-powered creative software**, with a
-background in **C#/.NET and Azure** and hands-on work across Python and TypeScript.
-
-My focus is the engineering that makes AI useful beyond a demo: explicit tool
-permissions, durable state, reproducible experiments, and human review. That
-work spans private AI assistants, Model Context Protocol (MCP) integrations,
-image-to-3D pipelines, and film pre-production tools.
+I'm **Mark Hall** (**raydeStar** on GitHub), a senior full-stack engineer who
+builds **agent harnesses and evals that make AI agents measurably reliable**.
+My focus is the part after the demo: proving an agent finishes the job, and
+showing why. In [Sir Thaddeus](https://github.com/raydeStar/sir-thaddeus), the
+same 1.2B local model went from **4/20 to 15/20** on a fresh verified-outcome
+scorecard once the harness gave it the right tools, state and checks, and any
+change that doesn't repeat on unseen tasks gets deleted. In
+[HireZero](https://github.com/raydeStar/HireZero), agents act only through
+approvals bound to the exact version reviewed, with budgets reserved before
+every model call. I work in Python, TypeScript and C#/.NET on Azure, and I've
+had fixes merged into OpenClaw and Unsloth Zoo.
 
 [Website & engineering notes](https://markbhall.dev/) ·
 [Explore the Stillwater 3D showcase](https://markbhall.dev/stillwater/) ·
@@ -75,11 +78,11 @@ for inspecting and reproducing the evaluation process.
   A deterministic C# engine owns combat, dice, quests, and persistent state;
   the language model narrates the results. Includes a WebMCP co-DM workflow
   with human approval for game-state changes.
-- **[HireZero](https://hirezero.app/)** — An early-preview marketing employee
-  for founders, built around research, campaign drafts, revision history, and
-  explicit publishing decisions. The
-  [public source](https://github.com/raydeStar/marketing-hire) combines a .NET
-  host, React cockpit, and an OpenClaw employee.
+- **[HireZero](https://github.com/raydeStar/HireZero)** —
+  A company of AI employees (Developer, Marketing, Support and CEO) where every
+  push, send, publish or spend waits for the owner's approval of the exact
+  version reviewed, and each model call reserves its budget first. Built with
+  C#/.NET and React. [Try the live demo](https://app.hirezero.app), hosted on Vultr.
 
 ## Merged open-source contributions
 
